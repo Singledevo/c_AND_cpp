@@ -1,5 +1,5 @@
 
-TARGET=maxTextCount
+TARGET=swapString_swap
 
 
 CSRCS= $(TARGET).c
