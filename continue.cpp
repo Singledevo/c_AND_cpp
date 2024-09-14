@@ -2,7 +2,7 @@
 
 using namespace std;
 int main()
-{
+{/*if continue statement in loop later it move to direct increment/decrement section of for loop*/
 
     for (int i = 0; i <=15; i+=2)
     {
