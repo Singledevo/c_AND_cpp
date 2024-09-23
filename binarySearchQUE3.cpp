@@ -8,7 +8,7 @@ class leftAndRightMost{
 public:
        int lestmost(int arrr[], int key, int size )
        {
-            int result=0;
+            int result=-1;
             int start=0, end=size-1;
             while (start<=end)
             {
@@ -26,10 +26,10 @@ public:
             {
                 start=mid+1;
             }
-            else{
-                cout << "No such key is present in array";
-                return -1;
-            }
+            // else{
+            //     cout << "No such key is present in array";
+            //     return -1;
+            // }
             
             }
            return result; 
@@ -37,7 +37,7 @@ public:
 
        int rightmost(int arrr[], int key, int size)
        {
-            int result =0, start=0, end=size -1;
+            int result =-1, start=0, end=size -1;
             while (start<=end)
             {
                 int mid = (start+end)/2;
@@ -54,10 +54,11 @@ public:
             {
                 start=mid+1;
             }
-            else
-            {
-                return -1;
-            }
+            // else
+            
+            // {
+            //     return -1;
+            // }
             }
            return result; 
        }
@@ -81,3 +82,11 @@ int main()
     cout << "number of count of key "<< key<<" is "<< count<<endl;
     return 0;
 }
+// problem in code
+
+// input :
+//3
+//2 2 4 4 5 5
+
+//output:
+//number of count of key 3 is 1
