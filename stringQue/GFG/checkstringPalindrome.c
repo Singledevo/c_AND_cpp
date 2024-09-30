@@ -1,14 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int stringPalindrome(char **ptr, int n)
+int stringPalindrome(char *ptr, int n)
 {
     for (int i = 0; i < n/2; i++)
     {
-        if(*(ptr+i)!= *(ptr+n-i))
+        if((ptr[i])!= ptr[n-i])
+        // printf("%c",*(ptr+n-i));
         {
             return 0;
         }
+        
     }
     return 1 ;
 }
@@ -27,7 +29,8 @@ int main()
         str++;
     }
     printf("%d",stringsize);
-    int ISpalindrome =stringPalindrome(&str,stringsize);
+    int ISpalindrome =stringPalindrome(str,stringsize);
+    printf("%d",ISpalindrome);
     if (ISpalindrome)
     {
         printf("string is palindrome");
