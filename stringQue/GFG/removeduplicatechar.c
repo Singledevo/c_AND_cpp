@@ -10,27 +10,25 @@ int main()
         size++;
         i++;
     }
-    
+    int j=0;
     for (int i = 0; i < size; i++)
     {
-        for (int j = i+1; j < size; j++)
+        for (int j =i+1; j < size; j++)
         {
             if (arr[i]==arr[j])
             {
                 arr[j]=' ';
-                
             }
+            
+            
   
         }
-        
+        if (arr[i]!=' ')
+        {
+            printf("%c",arr[i]); 
+        }
+          
     }
-    for (int i = 0; arr[i]!=' ' || arr[i]!='\0'; i++)
-    {
-       printf("%c",arr[i]);
-    }
-    
-    
-    
 
     return 0;
 }
