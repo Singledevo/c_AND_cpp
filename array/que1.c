@@ -1,5 +1,6 @@
 /*Array of A with unsorted element within element N , give the continue subsorted array which is equal to sum S
-give input N & S*/
+give input N & S
+find the sub array and dislay the sub array starting and ending element whose sum = S*/
 
 #include<stdio.h>
 int main()
