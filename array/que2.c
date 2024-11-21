@@ -1,3 +1,8 @@
+/*find the number of triplets count in the array whoes 2 element sum equal to 3rd
+example  A[]={1,5,3,2}
+3 +2=5  ----->1
+2+1 =3 -------2
+TOTAL 2 triplets*/
 #include<stdio.h>
 
 int main()
