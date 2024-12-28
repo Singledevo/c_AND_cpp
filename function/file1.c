@@ -1,6 +1,8 @@
+/*Static Function */
+
 #include<stdio.h>
 // #include"file2.c"
-extern int fun (int a , int b);
+int fun (int a , int b);
 int main()
 {
     int a1,a2;
