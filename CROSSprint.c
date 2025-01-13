@@ -3,6 +3,7 @@
 int main()
 {
     int num;
+    int arr[10][10];
     printf("Enter a number: ");
     scanf("%d",&num);
     int i=0;
@@ -11,11 +12,21 @@ int main()
         int j=0;
        while (j<num)
        {
-        printf("*");
+        
         if (i==j)
         {
-           
+            printf("\\");
         }
+        // else if (num-i-1)
+        // {
+        //     printf("/");
+        // }
+        else
+        {
+            printf("*");
+        }
+        
+        
         j++;
        }
        printf("\n");
