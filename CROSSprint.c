@@ -17,10 +17,10 @@ int main()
         {
             printf("\\");
         }
-        // else if (num-i-1)
-        // {
-        //     printf("/");
-        // }
+        else if (j==num-i-1)
+        {
+            printf("/");
+        }
         else
         {
             printf("*");
